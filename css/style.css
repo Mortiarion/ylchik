@@ -54,10 +54,10 @@ img {
 
 @media (min-width: 320px) {
     .wrapper {
-        width: 320px;
+        width: 280px;
         height: 100%;
-        gap: 10px;
-        padding: 20px 20px;
+        gap: 5px;
+        padding: 5px;
     }
     .bg-gradient,
     .gradient {
@@ -65,8 +65,8 @@ img {
         height: 100%;
     }
     picture {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
 }
 
