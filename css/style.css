@@ -34,10 +34,12 @@ img {
 }
 
 .bg-gradient {
-    height: 100vh; 
+    min-height: 100vh; 
     background: linear-gradient(135deg, #c850c0, #4158d0);
     background-size: 400% 400%;
     animation: gradientAnimation 8s ease infinite;
+    display: flex;
+    align-items: center;
 }
 
 @keyframes gradientAnimation {
